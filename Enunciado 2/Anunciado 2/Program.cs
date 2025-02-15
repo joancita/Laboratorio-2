@@ -4,11 +4,11 @@ class Program
 {
     static void Main()
     {
-        // Pedir un número al usuario
+        
         Console.Write("Ingresa un número del 1 al 7: ");
         int numero = Convert.ToInt32(Console.ReadLine());
 
-        // Determinar el día de la semana con switch
+        
         switch (numero)
         {
             case 1:
