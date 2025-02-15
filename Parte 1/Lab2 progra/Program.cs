@@ -21,7 +21,6 @@ class Program
         Console.Write("Ingresa un valor verdadero o falso (true/false): ");
         valorBooleano = Convert.ToBoolean(Console.ReadLine());
 
-        // Mostrar valores en consola
         Console.WriteLine("\nValores ingresados:");
         Console.WriteLine("Número entero: " + numeroEntero);
         Console.WriteLine("Número decimal: " + numeroDecimal);
