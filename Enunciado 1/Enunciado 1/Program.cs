@@ -4,11 +4,11 @@ class Program
 {
     static void Main()
     {
-        // Pedir la edad al usuario
+        
         Console.Write("Ingresa tu edad: ");
         int edad = Convert.ToInt32(Console.ReadLine());
 
-        // Clasificación de edad con if-else
+        
         if (edad < 12)
         {
             Console.WriteLine("Eres un Niño.");
